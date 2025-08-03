@@ -43,6 +43,13 @@
       h2 { font-size: 1.5rem; }
       a { color: var(--accent); text-decoration: none; }
       a:hover { text-decoration: underline; }
+      /* extra space below the quote */
+.bottom-link {
+  display: block;     /* puts it on its own line */
+  margin-top: 3rem;   /* tweak this value to taste */
+  font-weight: 600;   /* optional – makes it stand out */
+}
+
     </style>
   </head>
 
@@ -74,7 +81,8 @@
        <br><br>
   <blockquote>Solve intelligence, and then use that to solve everything else.</blockquote>
 
-      <p><a href="singularity.html">Singularity as the Revelation →</a></p>
+      <a class="bottom-link" href="singularity.html">Singularity as the Revelation →</a>
+
 
       
     </main>
